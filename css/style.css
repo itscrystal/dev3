@@ -701,7 +701,7 @@ p {
 		margin: 1em 1em 0 1em;
 	}
 
-	.content ul {
+	.content ul.note-list {
 		margin-left:-.25em;
 	}
 	.content p {
