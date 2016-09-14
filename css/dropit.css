@@ -1,0 +1,72 @@
+/* Test */
+
+/*
+ * Dropit v1.1.0
+ * http://dev7studios.com/dropit
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* These styles assume you are using ul and li */
+.dropit {
+    list-style: none;
+}
+
+.dropit .dropit-trigger { position: relative; }
+.dropit-open .dropit-submenu li {
+    display: block;
+}
+
+.dropit .dropit-open .dropit-submenu {
+    position: absolute;
+    background-color: #58B3C6;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.30);
+    min-width: 130px;
+    list-style: none;
+    padding: 20px 25px 25px 25px;
+    z-index: 1000;
+    height: auto;
+}
+
+.dropit .dropit-open .dropit-submenu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.add .dropit .dropit-open .dropit-submenu {
+    top: 100%;
+    left: 0px; /* dropdown left or right */
+    margin-top: 10px;
+}
+
+.settings .dropit .dropit-open .dropit-submenu {
+    top: 98%;
+    right: 0; /* dropdown left or right */
+    margin-left: -140px;
+    min-width: 150px;
+    margin-top: 2px;
+}
+
+.item-box.add-box .dropit .dropit-open .dropit-submenu {
+    top: -50%;
+    right: 0%; /* dropdown left or right */
+}
+
+.responsive-add .dropit .dropit-open .dropit-submenu {
+    top: 100%;
+    right: 0; /* dropdown left or right */
+    margin-top: 10px;
+}
+
+.hamburger .dropit .dropit-open .dropit-submenu {
+    top: 100%;
+    left: -40px; /* dropdown left or right */
+    margin-top: 11px;
+}
