@@ -56,19 +56,17 @@
 }
 
 .item-box.add-box .dropit .dropit-open .dropit-submenu {
-    bottom: 0;
-    right: 15px;
+
 }
 
 .responsive-add .dropit .dropit-open .dropit-submenu {
     top: 100%;
     right: 0; /* dropdown left or right */
     margin-top: 10px;
-    margin-right: 8px;
 }
 
 .hamburger .dropit .dropit-open .dropit-submenu {
     top: 100%;
-    left: -31px; /* dropdown left or right */
+    left: -40px; /* dropdown left or right */
     margin-top: 11px;
 }
