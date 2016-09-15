@@ -738,6 +738,7 @@ p {
 		align-items: center;
 		background: #F6f6f6;
 		overflow: visible;
+
 	}
 
 	.item-box.add-box a.plus-btn {
@@ -746,6 +747,7 @@ p {
 		font-family: "roboto", sans-serif;
 		font-weight: 200;
 		line-height: 200px;
+		padding-right: 40px;
 	}
 
 	.item-box.add-box a.plus-btn:hover{
