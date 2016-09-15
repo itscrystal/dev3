@@ -62,12 +62,12 @@
 
 .responsive-add .dropit .dropit-open .dropit-submenu {
     top: 100%;
-    right: 0; /* dropdown left or right */
+    right: 8px; /* dropdown left or right */
     margin-top: 10px;
 }
 
 .hamburger .dropit .dropit-open .dropit-submenu {
     top: 100%;
-    left: -40px; /* dropdown left or right */
+    left: -32px; /* dropdown left or right */
     margin-top: 11px;
 }
