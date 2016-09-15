@@ -56,7 +56,7 @@
 }
 
 .item-box.add-box .dropit .dropit-open .dropit-submenu {
-    top: -50%;
+    bottom: 0;
 }
 
 .responsive-add .dropit .dropit-open .dropit-submenu {
